@@ -1,1 +1,3 @@
-# python-structure
+# pythonstructure
+
+A quick demo of python project structure
