@@ -2,11 +2,11 @@
 import os
 import sys
 #sys.path.append('demo')
-testfolder = os.path.abspath(os.path.dirname(__file__))
-project_root = os.path.abspath(os.path.join(testfolder, r"..\.."))
-sys.path.append(project_root)
+# testfolder = os.path.abspath(os.path.dirname(__file__))
+# project_root = os.path.abspath(os.path.join(testfolder, r"..\.."))
+# sys.path.append(project_root)
 
-from demo.level1_2 import Level1_2
+from mypkg import Level1_2
 
 def test_level_1():
     str=Level1_2.get_info()
