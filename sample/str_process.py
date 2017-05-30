@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from demo.process.handler import *
+from sample.process.handler import *
 
 
 class classLv01(object):

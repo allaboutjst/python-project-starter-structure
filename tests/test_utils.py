@@ -4,12 +4,12 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import unittest
-from demo.utils.string.case_converter import toLowerCases, toUpperCases
+from sample.utils.string.case_converter import toLowerCases, toUpperCases
 
 
 class BasicTestSuite(unittest.TestCase):
     """
-    Test demo.utils.string.case_converter
+    Test sample.utils.string.case_converter
     """
     def testCaseConverter(self):
         str = toLowerCases("a Simple Test")

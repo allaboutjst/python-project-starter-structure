@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from os.path import join, dirname
-from setuptools import setup, find_packages
 import sys
 
 from setuptools import setup, find_packages
@@ -9,11 +8,14 @@ VERSION = (0, 1, 0)
 __version__ = VERSION
 __versionstr__ = '.'.join(map(str, VERSION))
 
-f = open(join(dirname(__file__), 'README.md'))
+README_FILE = 'README.md'
+LICENSE_FILE = 'LICENSE'
+
+f = open(join(dirname(__file__), README_FILE))
 long_description = f.read().strip()
 f.close()
 
-f = open(join(dirname(__file__), 'LICENSE'))
+f = open(join(dirname(__file__), LICENSE_FILE))
 license = f.read().strip()
 f.close()
 
@@ -42,7 +44,7 @@ setup(
         where='.',
         exclude=('tests', 'docs')
     ),
-    # install_requires=install_requires,
-    # test_suite='https://github.com/dqi2018/python-structure',
-    # tests_require=tests_require
+    install_requires=install_requires,
+    test_suite='tests.test_sample',
+    tests_require=tests_require
 )

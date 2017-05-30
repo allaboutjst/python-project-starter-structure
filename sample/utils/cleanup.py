@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from demo.utils.string.case_converter import *
+from sample.utils.string.case_converter import *
 
 def normalize(s):
     if s and isinstance(s, str):

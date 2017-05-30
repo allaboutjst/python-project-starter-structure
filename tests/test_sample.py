@@ -4,8 +4,8 @@ import os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 import unittest
-from demo.str_process import classLv01
-from demo.process.handler import Handler
+from sample.str_process import classLv01
+from sample.process.handler import Handler
 
 
 class BasicTestSuite(unittest.TestCase):

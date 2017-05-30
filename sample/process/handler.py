@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from demo.utils.cleanup import *
+from sample.utils.cleanup import *
 
 
 class Handler(object):
