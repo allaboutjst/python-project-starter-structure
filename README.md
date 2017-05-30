@@ -1,10 +1,8 @@
-# pythonstructure
+# Python Repository Structure
 
-A demo of python repository structure
+A demo of typical python repository structure at Github
 
 ## Repository Structure
-
-All files
 
 ```buildoutcfg
 ├── LICENSE
@@ -74,9 +72,22 @@ python setup.py test
 python python tests/test_utils.py
 ```
 
+TBD: add test coverage
+
 ## Makefile
 
-TBD
+make is a useful tool for defining generic and platform agnostic tasks for your project.
+
+
+```buildoutcfg
+# install requirements
+make init
+# run tests
+make test
+# cleanup
+make clean
+
+```
 
 ## scripts
 
