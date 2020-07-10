@@ -1,6 +1,6 @@
 # pythonstructure
 
-A demo of python repository structure
+A demo of python repository structure. Can be used to start a new python project.
 
 ## Repository Structure
 
